@@ -34,6 +34,15 @@ serve(async (req) => {
     }
 
     const svg = `
+<!-- 
+
+    Daysmatter-image-api
+    
+    Made with Love by Wmz1024 [wang@mingze.de]
+
+    Open Source on https://github.com/wmz1024/daysmatter-image-api
+
+-->
 <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" class="w-full h-auto drop-shadow-lg">
   <rect x="10" y="10" width="380" height="280" rx="15" fill="white"></rect>
   <rect x="10" y="10" width="380" height="60" rx="15" fill="${color}"></rect>
