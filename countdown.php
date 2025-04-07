@@ -30,6 +30,15 @@ if($days > 0){
 
 // SVG模板
 $svg = <<<SVG
+<!-- 
+
+    Daysmatter-image-api
+    
+    Made with Love by Wmz1024 [wang@mingze.de]
+
+    Open Source on https://github.com/wmz1024/daysmatter-image-api
+
+-->
 <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" class="w-full h-auto drop-shadow-lg"><rect x="10" y="10" width="380" height="280" rx="15" fill="white"></rect>
 <rect x="10" y="10" width="380" height="60" rx="15" fill="{$color}"></rect><rect x="10" y="50" width="380" height="20" fill="{$color}"></rect>
 <text x="200" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">{$titlea}</text>
